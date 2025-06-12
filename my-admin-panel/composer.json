@@ -1,0 +1,13 @@
+{
+    "name": "test/my-admin-panel",
+    "description": "A PHP admin panel.",
+    "require": {
+        "vlucas/phpdotenv": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com"
+        }
+    ]
+}
