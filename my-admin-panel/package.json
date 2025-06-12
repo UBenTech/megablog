@@ -1,0 +1,15 @@
+{
+  "name": "my-admin-panel",
+  "version": "1.0.0",
+  "description": "Admin panel assets",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i admin/assets/css_src/admin.css -o admin/assets/css/admin.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0"
+  }
+}
