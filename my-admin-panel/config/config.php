@@ -13,9 +13,9 @@ try {
 
 // Database connection constants
 defined('DB_HOST') or define('DB_HOST', $_ENV['DB_HOST'] ?? 'localhost');
-defined('DB_USER') or define('DB_USER', $_ENV['DB_USER'] ?? 'u662439561_main5_');
-defined('DB_PASS') or define('DB_PASS', $_ENV['DB_PASS'] ?? 'XpGmn&9a');
-defined('DB_NAME') or define('DB_NAME', $_ENV['DB_NAME'] ?? 'u662439561_Main5_');
+defined('DB_USER') or define('DB_USER', $_ENV['DB_USER'] ?? 'u662439561mega');
+defined('DB_PASS') or define('DB_PASS', $_ENV['DB_PASS'] ?? 'vy5UG9P3s;');
+defined('DB_NAME') or define('DB_NAME', $_ENV['DB_NAME'] ?? 'u662439561_mega');
 
 // Site settings
 defined('SITE_NAME') or define('SITE_NAME', $_ENV['SITE_NAME'] ?? 'My Admin Panel');
