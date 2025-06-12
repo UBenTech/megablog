@@ -1,0 +1,28 @@
+/* public/css/theme.css */
+
+/* Global custom styles that complement or override Tailwind utility classes can go here. */
+/* For now, this file can be left mostly empty if Tailwind via CDN is handling the bulk of styling. */
+
+/* Example: Define a custom font class if not solely relying on Tailwind's font families */
+/*
+body {
+    font-family: 'Inter', sans-serif;
+}
+*/
+
+/* Example: Custom styling for a specific element not easily achieved with Tailwind utilities alone */
+/*
+.custom-hero-section {
+    background-image: url('../assets/hero-background.jpg'); // Assuming assets folder is in public/
+    background-size: cover;
+    background-position: center;
+}
+*/
+
+/* Styles for Lucide icons if they need specific sizing or alignment not covered by utility classes */
+i[data-lucide] {
+    display: inline-block; /* Or 'block' if needed */
+    vertical-align: middle; /* Adjust as needed */
+    width: 1em; /* Default size, can be overridden by Tailwind width classes */
+    height: 1em; /* Default size, can be overridden by Tailwind height classes */
+}
